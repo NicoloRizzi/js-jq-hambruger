@@ -9,7 +9,7 @@
  * APPLICO IL METODO
  * 
  */
-$('.header-right a[href]').click( function() {
+$('.header-right a[href] .fa-bars').click( function() {
   $('.hamburger-menu').show(1000);
 });
 
